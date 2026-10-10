@@ -1,0 +1,44 @@
+# Dependencies and package caches
+node_modules/
+.npm/
+.npm-cache/
+.yarn/cache/
+.pnpm-store/
+.uv-cache/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build output and tool caches
+dist/
+build/
+.cache/
+.vite/
+*.tsbuildinfo
+
+# Tests and browser automation
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+.browser-profile/
+
+# Temporary files and logs
+.runtime/
+tmp/
+temp/
+logs/
+*.log
+*.tmp
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
